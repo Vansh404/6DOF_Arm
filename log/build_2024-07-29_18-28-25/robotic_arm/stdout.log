@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target example_joint_trajectory_publisher_cpp[0m
+[  0%] Built target ament_cmake_python_copy_robotic_arm
+[100%] Built target example_joint_trajectory_publisher_cpp
+running egg_info
+writing robotic_arm.egg-info/PKG-INFO
+writing dependency_links to robotic_arm.egg-info/dependency_links.txt
+writing top-level names to robotic_arm.egg-info/top_level.txt
+reading manifest file 'robotic_arm.egg-info/SOURCES.txt'
+writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robotic_arm_egg
+-- Install configuration: ""
+-- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config
+-- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config/controllers.yaml
+-- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch
+-- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch/launch_bot.launch.py
+-- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/models

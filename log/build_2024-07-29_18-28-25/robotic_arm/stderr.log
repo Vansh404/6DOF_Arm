@@ -1,0 +1,5 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/vansh/ros2_ws/src/robotic_arm/scripts": No
+  such file or directory.
+
+[0m

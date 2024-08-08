@@ -1,0 +1,99 @@
+[0.012s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.041s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.218s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.221s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.229s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.935s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.969s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.976s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.999s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.007s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.017s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.662s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.694s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.722s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.726s] -- Searching for dependencies of ignition-math6
+[1.728s] -- Looking for OGRE...
+[1.733s] -- Found Ogre Ghadamon (1.9.0)
+[1.733s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.743s] -- Looking for OGRE_Paging...
+[1.743s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.743s] -- Looking for OGRE_Terrain...
+[1.744s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.744s] -- Looking for OGRE_Property...
+[1.744s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.744s] -- Looking for OGRE_RTShaderSystem...
+[1.744s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.744s] -- Looking for OGRE_Volume...
+[1.744s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.744s] -- Looking for OGRE_Overlay...
+[1.744s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.840s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.841s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.841s] -- Searching for dependencies of ignition-transport8
+[1.859s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.870s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.875s] -- Checking for module 'libzmq >= 4'
+[1.888s] --   Found libzmq , version 4.3.4
+[1.941s] -- Checking for module 'uuid'
+[1.961s] --   Found uuid, version 2.37.2
+[2.009s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.010s] -- Searching for dependencies of ignition-msgs5
+[2.043s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.051s] -- Checking for module 'tinyxml2'
+[2.071s] --   Found tinyxml2, version 9.0.0
+[2.120s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.121s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.122s] -- Searching for dependencies of ignition-common3
+[2.122s] -- Looking for dlfcn.h - found
+[2.122s] -- Looking for libdl - found
+[2.139s] -- Searching for <ignition-common3> component [graphics]
+[2.140s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.140s] -- Searching for dependencies of ignition-common3-graphics
+[2.141s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.142s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.143s] -- Searching for dependencies of ignition-fuel_tools4
+[2.194s] -- Checking for module 'jsoncpp'
+[2.207s] --   Found jsoncpp, version 1.9.5
+[2.255s] -- Checking for module 'libzip'
+[2.269s] --   Found libzip, version 1.7.3
+[2.307s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.308s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.308s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.310s] -- Gazebo version: 11.10
+[2.316s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[2.922s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.922s] -- Found ros_gz: 0.244.14 (/opt/ros/humble/share/ros_gz/cmake)
+[2.922s] -- Found ros_gz_bridge: 0.244.14 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[3.106s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.843s] -- Found ros_gz_sim: 0.244.14 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[3.846s] -- Found ros_gz_image: 0.244.14 (/opt/ros/humble/share/ros_gz_image/cmake)
+[3.846s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[3.846s] -- Found ros2_controllers: 2.35.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[3.847s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.680s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.754s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.755s] -- Added test 'lint_cmake' to check CMake code style
+[4.755s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.757s] -- Added test 'xmllint' to check XML markup files
+[4.758s] -- Configuring done
+[4.765s] [31mCMake Error at CMakeLists.txt:37 (add_executable):
+[4.765s]   Cannot find source file:
+[4.765s] 
+[4.765s]     src/example_joint_trajectory_publisher.cpp
+[4.765s] 
+[4.765s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[4.766s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[4.766s] 
+[4.766s] [0m
+[4.769s] [31mCMake Error at CMakeLists.txt:37 (add_executable):
+[4.769s]   No SOURCES given to target: example_joint_trajectory_publisher_cpp
+[4.769s] 
+[4.769s] [0m
+[4.769s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[4.782s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[4.784s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '2': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6

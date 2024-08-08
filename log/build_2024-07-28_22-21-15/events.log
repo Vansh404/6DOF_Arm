@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (robotic_arm) JobQueued: {'identifier': 'robotic_arm', 'dependencies': OrderedDict()}
+[0.001226] (robotic_arm) JobStarted: {'identifier': 'robotic_arm'}
+[0.008984] (robotic_arm) JobProgress: {'identifier': 'robotic_arm', 'progress': 'cmake'}
+[0.010671] (robotic_arm) JobProgress: {'identifier': 'robotic_arm', 'progress': 'build'}
+[0.010723] (robotic_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vansh/ros2_ws/build/robotic_arm', '--', '-j6', '-l6'], 'cwd': '/home/vansh/ros2_ws/build/robotic_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vansh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vansh'), ('OLDPWD', '/home/vansh/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2130'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vansh/new_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vansh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vansh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vansh-VirtualBox:@/tmp/.ICE-unix/1918,unix/vansh-VirtualBox:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1be7980d_41f2_4a2c_b418_ad75ceb81dde'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVMKR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vansh/ros2_ws/build/robotic_arm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vansh/new_ros2/build/my_robot_controller:/home/vansh/new_ros2/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.051409] (robotic_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100586] (-) TimerEvent: {}
+[0.201451] (-) TimerEvent: {}
+[0.276905] (robotic_arm) StdoutLine: {'line': b'-- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.301811] (-) TimerEvent: {}
+[0.373992] (robotic_arm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.383490] (robotic_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.401200] (robotic_arm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.401928] (-) TimerEvent: {}
+[0.425700] (robotic_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.463587] (robotic_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.502633] (-) TimerEvent: {}
+[0.602913] (-) TimerEvent: {}
+[0.703174] (-) TimerEvent: {}
+[0.803532] (-) TimerEvent: {}
+[0.911343] (-) TimerEvent: {}
+[1.013046] (-) TimerEvent: {}
+[1.113354] (-) TimerEvent: {}
+[1.214359] (-) TimerEvent: {}
+[1.314697] (-) TimerEvent: {}
+[1.395708] (robotic_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.402021] (robotic_arm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.414908] (-) TimerEvent: {}
+[1.469748] (robotic_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.515115] (-) TimerEvent: {}
+[1.528511] (robotic_arm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.534997] (robotic_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.550373] (robotic_arm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.562354] (robotic_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.571390] (robotic_arm) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.581824] (robotic_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.608470] (robotic_arm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.615366] (-) TimerEvent: {}
+[1.715677] (-) TimerEvent: {}
+[1.769092] (robotic_arm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.770318] (robotic_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.816116] (-) TimerEvent: {}
+[1.877159] (robotic_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.877337] (robotic_arm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.916309] (-) TimerEvent: {}
+[2.017106] (-) TimerEvent: {}
+[2.117609] (-) TimerEvent: {}
+[2.218151] (-) TimerEvent: {}
+[2.318653] (-) TimerEvent: {}
+[2.419251] (-) TimerEvent: {}
+[2.519732] (-) TimerEvent: {}
+[2.620203] (-) TimerEvent: {}
+[2.644717] (robotic_arm) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.662182] (robotic_arm) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.665829] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.681575] (robotic_arm) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.720375] (-) TimerEvent: {}
+[2.809361] (robotic_arm) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.820504] (-) TimerEvent: {}
+[2.864000] (robotic_arm) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.906301] (robotic_arm) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.921076] (-) TimerEvent: {}
+[2.953955] (robotic_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.987704] (robotic_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.998846] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.014463] (robotic_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.019413] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.019854] (robotic_arm) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[3.021178] (-) TimerEvent: {}
+[3.025893] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[3.040265] (robotic_arm) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[3.079812] (robotic_arm) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.087211] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.098583] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.106432] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.106610] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.112273] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.112396] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.117893] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.118092] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.121352] (-) TimerEvent: {}
+[3.123492] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.123615] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.129222] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.129362] (robotic_arm) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.135332] (robotic_arm) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.221678] (-) TimerEvent: {}
+[3.256869] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.261871] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.262758] (robotic_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.283185] (robotic_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.295924] (robotic_arm) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.300582] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.318759] (robotic_arm) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.321920] (-) TimerEvent: {}
+[3.353940] (robotic_arm) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.362313] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.377371] (robotic_arm) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.409724] (robotic_arm) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.413587] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.414268] (robotic_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.422057] (-) TimerEvent: {}
+[3.435239] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.441115] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.455721] (robotic_arm) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.493433] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.499066] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.499754] (robotic_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.501019] (robotic_arm) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.501965] (robotic_arm) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.503580] (robotic_arm) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.518135] (robotic_arm) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[3.520156] (robotic_arm) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.522401] (-) TimerEvent: {}
+[3.523454] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[3.524073] (robotic_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.524438] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.529253] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[3.529773] (robotic_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.622595] (-) TimerEvent: {}
+[3.639438] (robotic_arm) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.652401] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.669730] (robotic_arm) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.704203] (robotic_arm) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.711696] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.722668] (-) TimerEvent: {}
+[3.724850] (robotic_arm) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.768868] (robotic_arm) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.769338] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.769831] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.770370] (robotic_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.778318] (robotic_arm) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.778730] (robotic_arm) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[3.792855] (robotic_arm) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[3.822893] (-) TimerEvent: {}
+[3.836379] (robotic_arm) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)\n'}
+[3.923369] (-) TimerEvent: {}
+[4.024249] (-) TimerEvent: {}
+[4.124859] (-) TimerEvent: {}
+[4.225389] (-) TimerEvent: {}
+[4.326345] (-) TimerEvent: {}
+[4.427405] (-) TimerEvent: {}
+[4.510945] (robotic_arm) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[4.511179] (robotic_arm) StderrLine: {'line': b'  By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.511257] (robotic_arm) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.511321] (robotic_arm) StderrLine: {'line': b'  "gazebo_ros_pkgs", but CMake did not find one.\n'}
+[4.511382] (robotic_arm) StderrLine: {'line': b'\n'}
+[4.511441] (robotic_arm) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo_ros_pkgs"\n'}
+[4.511500] (robotic_arm) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.511559] (robotic_arm) StderrLine: {'line': b'\n'}
+[4.511617] (robotic_arm) StderrLine: {'line': b'    gazebo_ros_pkgsConfig.cmake\n'}
+[4.511675] (robotic_arm) StderrLine: {'line': b'    gazebo_ros_pkgs-config.cmake\n'}
+[4.511733] (robotic_arm) StderrLine: {'line': b'\n'}
+[4.511790] (robotic_arm) StderrLine: {'line': b'  Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or\n'}
+[4.511899] (robotic_arm) StderrLine: {'line': b'  set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.\n'}
+[4.511963] (robotic_arm) StderrLine: {'line': b'  If "gazebo_ros_pkgs" provides a separate development package or SDK, be\n'}
+[4.512021] (robotic_arm) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.512079] (robotic_arm) StderrLine: {'line': b'\n'}
+[4.512136] (robotic_arm) StderrLine: {'line': b'\x1b[0m\n'}
+[4.512193] (robotic_arm) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.512260] (robotic_arm) StdoutLine: {'line': b'See also "/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/CMakeOutput.log".\n'}
+[4.521394] (robotic_arm) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[4.523510] (robotic_arm) CommandEnded: {'returncode': 2}
+[4.527502] (-) TimerEvent: {}
+[4.575188] (robotic_arm) JobEnded: {'identifier': 'robotic_arm', 'rc': 2}
+[4.586573] (-) EventReactorShutdown: {}

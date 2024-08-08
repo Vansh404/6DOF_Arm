@@ -1,0 +1,6 @@
+setup.py
+robotic_arm/__init__.py
+robotic_arm.egg-info/PKG-INFO
+robotic_arm.egg-info/SOURCES.txt
+robotic_arm.egg-info/dependency_links.txt
+robotic_arm.egg-info/top_level.txt

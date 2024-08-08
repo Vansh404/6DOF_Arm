@@ -1,0 +1,64 @@
+[0.023s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.198s] Built target ament_cmake_python_copy_robotic_arm
+[0.505s] running egg_info
+[0.506s] writing robotic_arm.egg-info/PKG-INFO
+[0.506s] writing dependency_links to robotic_arm.egg-info/dependency_links.txt
+[0.507s] writing top-level names to robotic_arm.egg-info/top_level.txt
+[0.511s] reading manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[0.512s] writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[0.542s] Built target ament_cmake_python_build_robotic_arm_egg
+[0.555s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.586s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm
+[0.600s] -- Install configuration: ""
+[0.600s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config
+[0.600s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config/controllers.yaml
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch/launch_bot.launch.py
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch/mycobot_launch_control.py
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/models
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/scripts
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/scripts/example_joint_trajectory_publisher.py
+[0.601s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/src
+[0.602s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/src/example_joint_trajectory_publisher.cpp
+[0.602s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf
+[0.602s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control
+[0.602s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/gazebo
+[0.602s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/gazebo/mycobot_280_gazebo.xacro
+[0.602s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/gazebo/mycobot_280.urdf.xacro
+[0.602s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/gazebo/mycobot_280_ros2_control.xacro
+[0.602s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/mycobot_280_classic_gazebo.xacro
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/theclaw.urdf.xacro
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/mycobot_280.urdf.xacro
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/mycobot_280_ros2_control.xacro
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/worlds
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/worlds/empty.world
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/worlds/house.world
+[0.603s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/include
+[0.604s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/include/robotic_arm
+[0.604s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/pythonpath.sh
+[0.604s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/pythonpath.dsv
+[0.604s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info
+[0.604s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.604s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/top_level.txt
+[0.605s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.605s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/PKG-INFO
+[0.605s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm
+[0.606s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm/__init__.py
+[0.657s] Listing '/home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm'...
+[0.662s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/ament_index/resource_index/package_run_dependencies/robotic_arm
+[0.663s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/ament_index/resource_index/parent_prefix_path/robotic_arm
+[0.663s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.sh
+[0.663s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.dsv
+[0.664s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/path.sh
+[0.664s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/path.dsv
+[0.664s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.bash
+[0.664s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.sh
+[0.664s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.zsh
+[0.664s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.dsv
+[0.664s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/package.dsv
+[0.666s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/ament_index/resource_index/packages/robotic_arm
+[0.666s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig.cmake
+[0.666s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig-version.cmake
+[0.666s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/package.xml
+[0.668s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm

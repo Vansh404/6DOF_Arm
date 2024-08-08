@@ -1,0 +1,4 @@
+Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm
+Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm

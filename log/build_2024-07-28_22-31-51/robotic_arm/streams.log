@@ -1,0 +1,90 @@
+[0.015s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.042s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.185s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.219s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.967s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.968s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.000s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.010s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.034s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.044s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.055s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.730s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.762s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.791s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.795s] -- Searching for dependencies of ignition-math6
+[1.796s] -- Looking for OGRE...
+[1.802s] -- Found Ogre Ghadamon (1.9.0)
+[1.802s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.812s] -- Looking for OGRE_Paging...
+[1.812s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.813s] -- Looking for OGRE_Terrain...
+[1.813s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.813s] -- Looking for OGRE_Property...
+[1.813s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.813s] -- Looking for OGRE_RTShaderSystem...
+[1.813s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.813s] -- Looking for OGRE_Volume...
+[1.813s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.813s] -- Looking for OGRE_Overlay...
+[1.813s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.908s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.909s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.909s] -- Searching for dependencies of ignition-transport8
+[1.927s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.939s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.944s] -- Checking for module 'libzmq >= 4'
+[1.957s] --   Found libzmq , version 4.3.4
+[2.004s] -- Checking for module 'uuid'
+[2.020s] --   Found uuid, version 2.37.2
+[2.069s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.070s] -- Searching for dependencies of ignition-msgs5
+[2.091s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.097s] -- Checking for module 'tinyxml2'
+[2.110s] --   Found tinyxml2, version 9.0.0
+[2.147s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.147s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.148s] -- Searching for dependencies of ignition-common3
+[2.148s] -- Looking for dlfcn.h - found
+[2.148s] -- Looking for libdl - found
+[2.160s] -- Searching for <ignition-common3> component [graphics]
+[2.161s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.161s] -- Searching for dependencies of ignition-common3-graphics
+[2.162s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.163s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.163s] -- Searching for dependencies of ignition-fuel_tools4
+[2.204s] -- Checking for module 'jsoncpp'
+[2.217s] --   Found jsoncpp, version 1.9.5
+[2.259s] -- Checking for module 'libzip'
+[2.273s] --   Found libzip, version 1.7.3
+[2.330s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.331s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.331s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.333s] -- Gazebo version: 11.10
+[2.338s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[2.960s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.960s] -- Found ros_gz: 0.244.14 (/opt/ros/humble/share/ros_gz/cmake)
+[2.961s] -- Found ros_gz_bridge: 0.244.14 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[3.130s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.839s] -- Found ros_gz_sim: 0.244.14 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[3.842s] -- Found ros_gz_image: 0.244.14 (/opt/ros/humble/share/ros_gz_image/cmake)
+[3.842s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[3.842s] -- Found ros2_controllers: 2.35.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[3.843s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.703s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[4.703s]   ament_python_install_package() the Python package folder
+[4.703s]   '/home/vansh/ros2_ws/src/robotic_arm/robotic_arm' doesn't contain an
+[4.703s]   '__init__.py' file
+[4.703s] Call Stack (most recent call first):
+[4.703s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[4.703s]   CMakeLists.txt:59 (ament_python_install_package)
+[4.703s] 
+[4.703s] [0m
+[4.704s] -- Configuring incomplete, errors occurred!
+[4.704s] See also "/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/CMakeOutput.log".
+[4.715s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[4.718s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '2': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6

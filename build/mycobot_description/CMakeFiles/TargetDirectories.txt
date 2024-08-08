@@ -1,0 +1,9 @@
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/uninstall.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/mycobot_description_uninstall.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/test.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/edit_cache.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/rebuild_cache.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/list_install_components.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/install.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/install/local.dir
+/home/vansh/ros2_ws/build/mycobot_description/CMakeFiles/install/strip.dir

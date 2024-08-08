@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:106 (file):
+  file INSTALL cannot find
+  "/home/vansh/ros2_ws/src/robotic_arm/scripts/example_joint_trajectory_publisher.py":
+  No such file or directory.
+
+[0m

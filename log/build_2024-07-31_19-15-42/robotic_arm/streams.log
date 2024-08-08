@@ -1,0 +1,150 @@
+[0.021s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.220s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.418s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.492s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.514s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.452s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.456s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.511s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.525s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.551s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.568s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.332s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.394s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.454s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.466s] -- Searching for dependencies of ignition-math6
+[2.470s] -- Looking for OGRE...
+[2.479s] -- Found Ogre Ghadamon (1.9.0)
+[2.480s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.491s] -- Looking for OGRE_Paging...
+[2.491s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.491s] -- Looking for OGRE_Terrain...
+[2.491s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.491s] -- Looking for OGRE_Property...
+[2.492s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.492s] -- Looking for OGRE_RTShaderSystem...
+[2.492s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.492s] -- Looking for OGRE_Volume...
+[2.492s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.492s] -- Looking for OGRE_Overlay...
+[2.492s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.616s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.617s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.618s] -- Searching for dependencies of ignition-transport8
+[2.637s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.649s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.655s] -- Checking for module 'libzmq >= 4'
+[2.674s] --   Found libzmq , version 4.3.4
+[2.716s] -- Checking for module 'uuid'
+[2.729s] --   Found uuid, version 2.37.2
+[2.767s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.768s] -- Searching for dependencies of ignition-msgs5
+[2.789s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.795s] -- Checking for module 'tinyxml2'
+[2.808s] --   Found tinyxml2, version 9.0.0
+[2.846s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.848s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.848s] -- Searching for dependencies of ignition-common3
+[2.849s] -- Looking for dlfcn.h - found
+[2.849s] -- Looking for libdl - found
+[2.865s] -- Searching for <ignition-common3> component [graphics]
+[2.867s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.868s] -- Searching for dependencies of ignition-common3-graphics
+[2.868s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.871s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.872s] -- Searching for dependencies of ignition-fuel_tools4
+[2.918s] -- Checking for module 'jsoncpp'
+[2.932s] --   Found jsoncpp, version 1.9.5
+[2.975s] -- Checking for module 'libzip'
+[2.989s] --   Found libzip, version 1.7.3
+[3.026s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.026s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.027s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.032s] -- Gazebo version: 11.10
+[3.039s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[3.667s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[3.669s] -- Found ros_gz: 0.244.14 (/opt/ros/humble/share/ros_gz/cmake)
+[3.670s] -- Found ros_gz_bridge: 0.244.14 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[3.871s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.656s] -- Found ros_gz_sim: 0.244.14 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[4.662s] -- Found ros_gz_image: 0.244.14 (/opt/ros/humble/share/ros_gz_image/cmake)
+[4.663s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[4.664s] -- Found ros2_controllers: 2.35.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[4.666s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.738s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.834s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.834s] -- Configured cppcheck include dirs: /home/vansh/ros2_ws/src/robotic_arm/include
+[4.834s] -- Configured cppcheck exclude dirs and/or files: 
+[4.835s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.836s] -- Added test 'lint_cmake' to check CMake code style
+[4.837s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.839s] -- Added test 'uncrustify' to check C / C++ code style
+[4.839s] -- Configured uncrustify additional arguments: 
+[4.840s] -- Added test 'xmllint' to check XML markup files
+[4.842s] -- Configuring done
+[4.858s] -- Generating done
+[4.863s] -- Build files have been written to: /home/vansh/ros2_ws/build/robotic_arm
+[4.922s] Built target ament_cmake_python_copy_robotic_arm
+[5.222s] running egg_info
+[5.223s] writing robotic_arm.egg-info/PKG-INFO
+[5.223s] writing dependency_links to robotic_arm.egg-info/dependency_links.txt
+[5.224s] writing top-level names to robotic_arm.egg-info/top_level.txt
+[5.228s] reading manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[5.229s] writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[5.259s] Built target ament_cmake_python_build_robotic_arm_egg
+[5.272s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[5.314s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm
+[5.322s] -- Install configuration: ""
+[5.324s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config
+[5.325s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config/controllers.yaml
+[5.325s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch
+[5.326s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch/launch_bot.launch.py
+[5.327s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/models
+[5.327s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/scripts
+[5.327s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/scripts/example_joint_trajectory_publisher.py
+[5.328s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/src
+[5.329s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/src/example_joint_trajectory_publisher.cpp
+[5.329s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf
+[5.330s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/mycobot_280_gazebo.urdf.xacro
+[5.330s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control
+[5.330s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo
+[5.331s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/mycobot_280_classic_gazebo.xacro
+[5.331s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/theclaw.urdf.xacro
+[5.331s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/mycobot_280.urdf.xacro
+[5.331s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/ros2_control/classic_gazebo/mycobot_280_ros2_control.xacro
+[5.331s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/urdf/mycobot_280_classic_gazebo.urdf.xacro
+[5.331s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/worlds
+[5.332s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/worlds/empty.world
+[5.332s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/worlds/house.world
+[5.332s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/include
+[5.332s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/include/robotic_arm
+[5.333s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/pythonpath.sh
+[5.333s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/pythonpath.dsv
+[5.335s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info
+[5.336s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.336s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/top_level.txt
+[5.337s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.337s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm-0.0.0-py3.10.egg-info/PKG-INFO
+[5.337s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm
+[5.338s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm/__init__.py
+[5.378s] Listing '/home/vansh/ros2_ws/install/robotic_arm/local/lib/python3.10/dist-packages/robotic_arm'...
+[5.384s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/ament_index/resource_index/package_run_dependencies/robotic_arm
+[5.384s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/ament_index/resource_index/parent_prefix_path/robotic_arm
+[5.384s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.sh
+[5.384s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/ament_prefix_path.dsv
+[5.385s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/path.sh
+[5.385s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/environment/path.dsv
+[5.385s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.bash
+[5.385s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.sh
+[5.386s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.zsh
+[5.386s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/local_setup.dsv
+[5.386s] -- Installing: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/package.dsv
+[5.387s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/ament_index/resource_index/packages/robotic_arm
+[5.387s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig.cmake
+[5.388s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/cmake/robotic_armConfig-version.cmake
+[5.388s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/package.xml
+[5.391s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm

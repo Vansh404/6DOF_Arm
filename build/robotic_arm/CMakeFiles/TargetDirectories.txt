@@ -1,0 +1,11 @@
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/uninstall.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/robotic_arm_uninstall.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/ament_cmake_python_copy_robotic_arm.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/ament_cmake_python_build_robotic_arm_egg.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/test.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/edit_cache.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/rebuild_cache.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/list_install_components.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/install.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/install/local.dir
+/home/vansh/ros2_ws/build/robotic_arm/CMakeFiles/install/strip.dir

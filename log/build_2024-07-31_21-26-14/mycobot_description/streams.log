@@ -1,0 +1,91 @@
+[0.015s] Invoking command in '/home/vansh/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/vansh/ros2_ws/src/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/vansh/ros2_ws/install/mycobot_description
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.379s] -- The CXX compiler identification is GNU 11.4.0
+[0.390s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.484s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.489s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.593s] -- Detecting CXX compile features
+[0.593s] -- Detecting CXX compile features - done
+[0.597s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.887s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.975s] -- Added test 'lint_cmake' to check CMake code style
+[0.977s] -- Added test 'xmllint' to check XML markup files
+[0.979s] -- Configuring done
+[0.982s] -- Generating done
+[0.983s] -- Build files have been written to: /home/vansh/ros2_ws/build/mycobot_description
+[0.987s] Invoked command in '/home/vansh/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/vansh/ros2_ws/src/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/vansh/ros2_ws/install/mycobot_description
+[0.989s] Invoking command in '/home/vansh/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/mycobot_description -- -j6 -l6
+[1.031s] Invoked command in '/home/vansh/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/mycobot_description -- -j6 -l6
+[1.062s] Invoking command in '/home/vansh/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/mycobot_description
+[1.071s] -- Install configuration: ""
+[1.071s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+[1.071s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+[1.071s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+[1.071s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_step.STEP
+[1.182s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.png
+[1.183s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.png
+[1.183s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.dae
+[1.188s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.png
+[1.188s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link6.dae
+[1.192s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/base_link.dae
+[1.206s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_280_arduino.urdf
+[1.206s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link1.png
+[1.206s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.dae
+[1.210s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.png
+[1.210s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_right2.dae
+[1.211s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_right3.dae
+[1.211s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_left3.dae
+[1.215s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link7.dae
+[1.216s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.dae
+[1.220s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link7.png
+[1.220s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link2.dae
+[1.225s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_with_vision.urdf
+[1.225s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_base.dae
+[1.230s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link5.png
+[1.230s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.dae
+[1.237s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_left1.dae
+[1.237s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.dae
+[1.247s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link2.png
+[1.247s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_with_vision_copy.urdf
+[1.247s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/suit_env.dae
+[1.267s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link1.dae
+[1.288s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/noenv.urdf
+[1.288s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.png
+[1.288s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.png
+[1.288s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_left2.dae
+[1.289s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link3.dae
+[1.298s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link4.dae
+[1.299s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/withenv.urdf
+[1.299s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.dae
+[1.303s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link4.png
+[1.303s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.dae
+[1.322s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_right1.dae
+[1.325s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link6.png
+[1.325s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link3.png
+[1.325s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.png
+[1.326s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link5.dae
+[1.331s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+[1.331s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+[1.331s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro
+[1.331s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[1.332s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[1.332s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[1.332s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[1.332s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[1.332s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[1.332s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[1.333s] -- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[1.335s] Invoked command in '/home/vansh/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/mycobot_description

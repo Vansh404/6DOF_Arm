@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target example_joint_trajectory_publisher_cpp[0m
+[0.273s] [  0%] Built target ament_cmake_python_copy_robotic_arm
+[0.327s] [100%] Built target example_joint_trajectory_publisher_cpp
+[0.616s] running egg_info
+[0.617s] writing robotic_arm.egg-info/PKG-INFO
+[0.617s] writing dependency_links to robotic_arm.egg-info/dependency_links.txt
+[0.617s] writing top-level names to robotic_arm.egg-info/top_level.txt
+[0.622s] reading manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[0.623s] writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[0.657s] [100%] Built target ament_cmake_python_build_robotic_arm_egg
+[0.673s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '0': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/vansh/ros2_ws/build/robotic_arm -- -j6 -l6
+[0.722s] Invoking command in '/home/vansh/ros2_ws/build/robotic_arm': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm
+[0.734s] -- Install configuration: ""
+[0.736s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config
+[0.736s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/config/controllers.yaml
+[0.737s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch
+[0.739s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/launch/launch_bot.launch.py
+[0.739s] -- Up-to-date: /home/vansh/ros2_ws/install/robotic_arm/share/robotic_arm/models
+[0.739s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.740s]   file INSTALL cannot find "/home/vansh/ros2_ws/src/robotic_arm/scripts": No
+[0.740s]   such file or directory.
+[0.740s] 
+[0.740s] [0m
+[0.741s] Invoked command in '/home/vansh/ros2_ws/build/robotic_arm' returned '1': CMAKE_PREFIX_PATH=/home/vansh/new_ros2/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/vansh/ros2_ws/build/robotic_arm

@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vansh/ros2_ws/build/mycobot_description
+-- Install configuration: ""
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_step.STEP
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link6.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/base_link.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_280_arduino.urdf
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link1.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_right2.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_right3.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_left3.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link7.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link7.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link2.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_with_vision.urdf
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_base.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link5.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_left1.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link2.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/mycobot_with_vision_copy.urdf
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/suit_env.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link1.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/noenv.urdf
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_left2.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link3.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link4.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/withenv.urdf
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link4.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/gripper_right1.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link6.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link3.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.png
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/link5.dae
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+-- Installing: /home/vansh/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml

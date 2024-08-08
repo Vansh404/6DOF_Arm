@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:53 (install):
+  install TARGETS given target "example_joint_trajectory_publisher_cpp" which
+  does not exist.
+
+[0m
+gmake: *** [Makefile:295: cmake_check_build_system] Error 1
